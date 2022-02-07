@@ -3,51 +3,109 @@ body{
     margin: 0%;
 }
 .half-width{
-    width: 40%;
+    width: 45%;
     float: left;
     margin-left: 5%;
-    padding-left: 5%;
-}
-.half-width img{
-    width: 70%;
-    position: 300px 200px;
+    position: 50%;
+    
     
 }
+.half-text{
+    padding:  150px 0 0 80px;
+    margin-left: 20%;
+}
+.img1{
+    padding-top: 30px;
+    padding-left: 0%;
+    width: 80%;
+
+}
+.img2{
+    width: 70%;
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+.half-width img{
+    width: 100%;
+    
+ 
+    
+}
+
   .link-button{
     text-decoration: none;
-    background-color: rgb(245, 4, 44);
-    padding: 10px 10px;
+    padding: 15px 40px;
     border-radius: 10px;
     color: white;
-    text-align: center;
-    font-size: medium;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 700;
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(245, 4, 44);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: linear-gradient(45deg, rgb(245, 7, 46), rgb(241, 15, 49));
 
 }
-.top-banner{
+.top-banner1{
     background-image: url("img/header-bg.png");
+    height: 500px;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     
+
+
+}
+.top-banner2{
+    background-image: url("img/biography-bg.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+.text-possition{
+    left: 100px;
+    bottom: 50px;
 
 }
   
 h1{
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 0.5;
+}
+h2{
+    font-size: 35px;
+
 }
 p{
-    color: #424041;
+    color: #555455;
+
+    
+}
+#link-height{
+    line-height: 5;
 }
 section{
-    height: 300px;
+    height: 500px;
     padding-bottom: 150px;
 }
 
 #id{
     color: rgb(235, 10, 47);
-}
-#text{
     font-family: 'Anton', sans-serif;
+
+}
+#id2{
+    padding-top: 120px;
+    width: 85%;
+}
+#id-bio{
+    line-height: 2.5;
+    font-weight: bold;
 }
 
