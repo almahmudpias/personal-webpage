@@ -26,6 +26,35 @@ body{
     padding-left: 30px;
 
 }
+.img3{
+    width: 30%;
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+.img4{
+    width: 30%;
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+.img5{
+    width: 30%;
+    padding-top: 40px;
+    padding-left: 30px;
+
+}
+.three-width{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    position: 28%;
+    padding-top: 40px;
+}
+.three-width img{
+    width: 100%;
+}
+
 .half-width img{
     width: 100%;
     
@@ -47,6 +76,7 @@ body{
     background-image: linear-gradient(45deg, rgb(245, 7, 46), rgb(241, 15, 49));
 
 }
+
 .top-banner1{
     background-image: url("img/header-bg.png");
     height: 500px;
@@ -68,11 +98,31 @@ body{
     
 
 }
+.top-banner3{
+    background-image: url("img/latest-work-bg.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+
+}
+.top-banner4{
+    background-image: url("img/footer-bg.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 .text-possition{
     left: 100px;
     bottom: 50px;
 
 }
+
+
   
 h1{
     font-size: 50px;
@@ -104,8 +154,33 @@ section{
     padding-top: 120px;
     width: 85%;
 }
+#id3{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 15px;
+    padding-left: 500px;
+    font-size: 30px;
+}
+#id4{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#id5{
+    line-height: 2.5;
+}
+#id6{
+    
+    width: 40%;
+    text-align: center;
+    padding-left: 400px;
+}
+#id7{
+    line-height: 10;
+}
 #id-bio{
     line-height: 2.5;
     font-weight: bold;
 }
 
+#last-part{
+    text-align: center;
+}
